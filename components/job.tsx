@@ -28,7 +28,7 @@ const Job = ({ date, title, tools, type, line = true }: JobProps) => {
                 <h3 className="text-base md:text-xl font-semibold">
                     {title}
                 </h3>
-                
+
                 <p className="text-xs md:text-base italic text-text-body">
                     {date}
                 </p>
@@ -36,7 +36,7 @@ const Job = ({ date, title, tools, type, line = true }: JobProps) => {
                 <p className="text-xs md:text-base text-text-body">
                     {type}
                 </p>
-            
+
                 <div className="flex gap-0.5 md:gap-1 pt-2">
                     {
                         tools.map((tool, index) => {
@@ -49,7 +49,6 @@ const Job = ({ date, title, tools, type, line = true }: JobProps) => {
                     }
                 </div>
             </div>
-            
         </div>
     </div>
   );

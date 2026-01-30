@@ -25,10 +25,20 @@ const Hero = () => {
                     </h2>
                 </div>
 
-                <div className="flex text-xl md:text-3xl gap-2 pt-3 md:pt-2 pb-2 md:pb-4 font-code">
+                <div className="hidden md:flex text-xl md:text-3xl gap-2 pt-3 md:pt-2 pb-2 md:pb-4 font-code">
                     <Typewriter
                         options={{
                             strings: ['Software Developer', 'Retired Intramural Champion', 'Bouldering Enthusiast'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+                </div>
+
+                <div className="md:hidden flex text-xl md:text-3xl gap-2 pt-3 md:pt-2 pb-2 md:pb-4 font-code">
+                    <Typewriter
+                        options={{
+                            strings: ['Software Developer', 'Retired Intramural Champ', 'Bouldering Enthusiast'],
                             autoStart: true,
                             loop: true,
                         }}
@@ -56,7 +66,7 @@ const Hero = () => {
             </Link>
         </div>
   </div>
-  );  
+  );
 };
 
 export default Hero;

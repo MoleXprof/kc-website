@@ -19,7 +19,7 @@ const Header = () => {
 
     return (
         <nav className="w-full flex py-6 justify-between items-center navbar" id="top">
-            <div className="border border-text-body py-1.5 md:py-2.5 font-bold px-3 md:px-5 
+            <div className="border border-text-body py-1.5 md:py-2.5 font-bold px-3 md:px-5
                 rounded-md hover:bg-background-hover text-sm md:text-base cursor-pointer"
             >
                 <button className="download-btn flex gap-1 justify-center items-center" onClick={saveResume}>
@@ -27,7 +27,7 @@ const Header = () => {
                     {"Resume"}
                 </button>
             </div>
-            
+
             {/* desktop view */}
             <ul className="list-none md:flex hidden justify-end items-center flex-1">
                 {headerOptions.map((nav, index) =>
@@ -53,7 +53,7 @@ const Header = () => {
                 <div onClick={() => setToggle((prev) => !prev)}>
                     {toggle ? <IoMdClose className="w-[20px] h-[20px]" /> : <IoMdMenu className="w-[20px] h-[20px]" />}
                 </div>
-        
+
                 <div className={classnames(
                     toggle ? "flex" : "hidden", "p-6 absolute top-10 right-0 mx-4 sidebar min-w-36"
                 )}>

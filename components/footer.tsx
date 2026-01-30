@@ -13,7 +13,7 @@ const Footer = () => {
                 >
                     <IoLogoGithub className="text-pink-300 h-4 w-4 md:h-6 md:w-6 hover:text-pink-400"/>
                 </a>
-            
+
                 <a
                     href="https://www.linkedin.com/in/kyle-chin-527959231/"
                     className="hyperlink text-sm md:text-base"

@@ -37,7 +37,7 @@ const Experience = () => {
                         />
 
                         <Image
-                            src={"/images/rossvideo.png"}
+                            src={"/images/wbd.jpeg"}
                             alt={`WBD logo`}
                             width={25}
                             height={25}
@@ -57,7 +57,7 @@ const Experience = () => {
                         line={false}
                     />
                 </div>
-                
+
                 <div>
                     <div className="flex gap-2 md:gap-4 items-center">
                         <Image
@@ -154,7 +154,7 @@ const Experience = () => {
                     </p>
                 </div>
 
-                <button 
+                <button
                     className="download-btn flex gap-1 justify-center items-center border border-text-body py-1.5 md:py-2.5 font-bold px-3 md:px-5 rounded-md hover:bg-background-hover text-xs md:text-base cursor-pointer"
                     onClick={saveResume}
                 >

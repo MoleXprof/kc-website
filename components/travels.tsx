@@ -26,7 +26,7 @@ const Travels = () => {
                     className="-rotate-3 transition duration-300 ease-in-out hover:scale-105 shadow-lg"
                 />
             </div>
-            
+
             <div className="bg-pink-300 mb-2 flex items-center justify-center relative">
                 <p className="font-written text-sm lg:text-3xl font-semibold absolute bottom-0 lg:bottom-1 -rotate-6 z-10 pl-2 lg:pl-5">{"Leiden, NL"}</p>
                 <Image
