@@ -13,7 +13,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-between md:items-center gap-3 md:gap-0 autoRightHorizontalScroll">
+            <div className="flex flex-col md:flex-row justify-between md:items-center gap-3 md:gap-0 sm:autoRightHorizontalScroll autoVerticalScroll">
                 <div className="flex flex-col gap-1 md:hidden">
                     <h2 className="text-2xl font-bold font-header">
                         {"Anime & Manga"}
@@ -47,7 +47,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-between md:items-center gap-3 md:gap-0 autoLeftHorizontalScroll">
+            <div className="flex flex-col md:flex-row justify-between md:items-center gap-3 md:gap-0 sm:autoLeftHorizontalScroll autoVerticalScroll">
                 <div className="flex flex-col gap-1 md:gap-2">
                     <h2 className="text-2xl md:text-4xl font-bold font-header">
                         {"Sports & Fitness"}

@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { FaRegPaperPlane } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll'
 
@@ -46,8 +49,32 @@ const Hero = () => {
                 </div>
 
                 <p className="w-3/4 md:w-1/2 text-center text-text-body text-sm md:text-xl">
-                    {"An ethusiatic programmer that is passionate about full stack development and is looking to further my technical skills."}
+                    {"An enthusiastic programmer that is passionate about full stack development and is looking to further my technical skills."}
                 </p>
+
+                <div className="flex flex-row gap-4">
+                    <div className="border border-text-body py-1.5 md:py-2.5 font-bold my-5 px-3 md:px-5 rounded-md hover:bg-background-hover text-xs md:text-base items-center flex gap-1 cursor-pointer">
+                        <FaRegPaperPlane />
+                        <a href="mailto:kkhc99@gmail.com">
+                            {"Email"}
+                        </a>
+                    </div>
+
+                    <div className="border border-text-body py-1.5 md:py-2.5 font-bold my-5 px-3 md:px-5 rounded-md hover:bg-background-hover text-xs md:text-base items-center flex gap-1 cursor-pointer">
+                        <FaLinkedin />
+                        <a href="https://www.linkedin.com/in/kyle-chin-527959231/" target="_blank" rel="noopener noreferrer">
+                            {"LinkedIn"}
+                        </a>
+                    </div>
+
+                    <div className="border border-text-body py-1.5 md:py-2.5 font-bold my-5 px-3 md:px-5 rounded-md hover:bg-background-hover text-xs md:text-base items-center flex gap-1 cursor-pointer">
+                        <IoLogoGithub />
+                        <a href="https://github.com/MoleXprof" target="_blank" rel="noopener noreferrer">
+                            {"GitHub"}
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
 
