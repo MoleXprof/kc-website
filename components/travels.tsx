@@ -6,7 +6,7 @@ const Travels = () => {
             <h3 className="uppercase absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-header text-2xl lg:text-8xl w-full text-center z-10">{"Recent Travels"}</h3>
 
             <div className="bg-pink-300 mb-2 flex items-center justify-center relative">
-                <p className="font-written text-sm lg:text-3xl font-semibold absolute bottom-0 lg:bottom-1 rotate-6 z-10 pr-2 lg:pr-10">{"Kyoto, JP"}</p>
+                <p className="font-written text-sm lg:text-3xl font-semibold absolute bottom-0 lg:bottom-1 rotate-6 z-10 pr-2 lg:pr-10">{"Kyoto 🇯🇵"}</p>
                 <Image
                     src={"/images/japan.png"}
                     alt={"Japan"}
@@ -17,7 +17,7 @@ const Travels = () => {
             </div>
 
             <div className="bg-pink-300 mb-2 flex items-center justify-center relative">
-                <p className="font-written text-sm lg:text-3xl font-semibold absolute bottom-0 lg:bottom-1 -rotate-3 z-10">{"Tokyo, JP"}</p>
+                <p className="font-written text-sm lg:text-3xl font-semibold absolute bottom-0 lg:bottom-1 -rotate-3 z-10">{"Tokyo 🇯🇵"}</p>
                 <Image
                     src={"/images/tori.png"}
                     alt={"Tori"}
@@ -28,7 +28,7 @@ const Travels = () => {
             </div>
 
             <div className="bg-pink-300 mb-2 flex items-center justify-center relative">
-                <p className="font-written text-sm lg:text-3xl font-semibold absolute bottom-0 lg:bottom-1 -rotate-6 z-10 pl-2 lg:pl-5">{"Leiden, NL"}</p>
+                <p className="font-written text-sm lg:text-3xl font-semibold absolute bottom-0 lg:bottom-1 -rotate-6 z-10 pl-2 lg:pl-5">{"Utrecht 🇳🇱"}</p>
                 <Image
                     src={"/images/netherlands.png"}
                     alt={"Netherlands"}
