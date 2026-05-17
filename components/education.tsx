@@ -48,7 +48,7 @@ const Education = () => {
                             {"Bacherlor of Computer Science: Software Engineering Stream"}
                         </h3>
                         <p className="text-text-body text-sm">
-                            {"CGPA: 10.36/12"}
+                            {"CGPA: 10.36/12 (Graduated with Distinction)"}
                         </p>
                     </div>
 

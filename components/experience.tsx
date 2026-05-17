@@ -52,7 +52,7 @@ const Experience = () => {
                     <Job
                         title="Software Developer I"
                         date="MAY 2025 - Present"
-                        tools={["C++"]}
+                        tools={["C++", "Grafana", "Kibana"]}
                         type={JobType.FullTime}
                         line={false}
                     />
